@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Display">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tv_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/pixel_google" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/TextContent.Black"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/dummy_value1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/stock"
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/stock"
+            android:textSize="22sp"/>
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="8dp"
+            android:text="@string/deskripsi" />
+
+        <TextView
+            android:id="@+id/deskripsi"
+            style="@style/TextContent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/content_text"
+            android:textColor="@android:color/black" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/display" />
+
+                <TextView
+                    android:id="@+id/display"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_display" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/size" />
+
+                <TextView
+                    android:id="@+id/size"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_size" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/kategori" />
+
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_kategori" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/berat" />
+
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_berat" />
+            </TableRow>
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                style="@style/TextSpec.Field"
+                android:text="@string/features" />
+
+            <TextView
+                android:id="@+id/feature"
+                style="@style/TextSpec.Value"
+                android:text="@string/content_features" />
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/camera" />
+
+                <TextView
+                    android:id="@+id/camera"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_camera" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="8dp"
+            android:text="@string/seller" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@drawable/photo_2" />
+
+            <TextView
+                android:id="@+id/penjual"
+                style="@style/TextContent"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/profile_image"
+                android:layout_toRightOf="@id/profile_image"
+                android:text="@string/my_name" />
+        </RelativeLayout>
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/beli_barang"/>
+    </LinearLayout>
+</ScrollView>

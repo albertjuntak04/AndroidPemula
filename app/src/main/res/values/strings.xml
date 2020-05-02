@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ProjectDicoding</string>
+    <string name="share">share</string>
+    <string name="favorite">favorite</string>
+    <string name="list">list</string>
+    <string name="grid">grid</string>
+    <string name="with_cardview">with_cardview</string>
+    <string name="add">Add</string>
+    <string name="view_more">View More</string>
+    <string name="content_text">dual sim ( nano + nano )
+new segel green peel
+hrg nett
+free ongkir dan tempred glass</string>
+    <string name="content_specs_display">5.0 inches\n
+        FHD AMOLED at 441ppi\n
+        2.5D Corning® Gorilla® Glass 4</string>
+    <string name="content_specs_size">5.6 x 2.7 x 0.2 ~ 0.3 inches 143.8 x 69.5 x 7.3 ~ 8.5 mm</string>
+    <string name="content_specs_battery">2,770 mAh battery\n
+        Standby time (LTE): up to 19 days\n
+        Talk time (3g/WCDMA): up to 26 hours\n
+        Internet use time (Wi-Fi): up to 13 hours\n
+        Internet use time (LTE): up to 13 hours\n
+        Video playback: up to 13 hours\n
+        Audio playback (via headset): up to 110 hours\n
+        Fast charging: up to 7 hours of use from only 15 minutes of charging</string>
+    <string name="stock">Stock hanya 5 buah</string>
+    <string name="specification">Spesifikasi</string>
+    <string name="display">Display</string>
+    <string name="size">Size</string>
+    <string name="battery">Battery</string>
+    <string name="seller">Dijual oleh</string>
+    <string name="my_name">Narenda Wicaksono</string>
+    <string name="buy">Beli</string>
+    <string name="dummy_value1">Rp 2.000.000</string>
+    <string name="dummy_value2">Rp 1.770.000</string>
+    <string name="dummy_photos">6 photos</string>
+    <string name="narenda_wicaksono">Narenda Wicaksono</string>
+    <string name="beli">Beli</string>
+    <string name="dijual_oleh">Dijual oleh</string>
+    <string name="spesifikasi">Spesifikasi</string>
+    <string name="stock_hanya_5_buah">Stock hanya 5 buah</string>
+    <string name="_735">$735</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="content_camera">13 to 20 Megapixel</string>
+    <string name="camera">Camera Resolution</string>
+    <string name="content_features">4G - LTE, GPS Navigation, 3G, Wifi, Bluetooth, Touchscreen, QWERTY Keyboard, e-mail, Dual Sim Card, Front Camera, Video Player, Water Resistance</string>
+    <string name="features">Features</string>
+    <string name="kategori">Kategori</string>
+    <string name="content_kategori">HP dan Smartphone</string>
+    <string name="berat">Berat</string>
+    <string name="content_berat">999 gram</string>
+    <string name="beli_barang">Beli Sekarang</string>
+</resources>
